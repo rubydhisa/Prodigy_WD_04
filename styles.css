@@ -1,0 +1,75 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main styles */
+main {
+    padding: 2rem;
+}
+
+.hero {
+    background: #ff9800;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.skills, .projects, .about {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    background: #e0e0e0;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    width: calc(50% - 1rem);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
